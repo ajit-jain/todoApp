@@ -25,15 +25,6 @@ export class Task1Component implements OnInit {
       }
     });
     this.isTaskStarted = true;
-    // const $interval = setInterval(() => {
-    //   if (this.currentValue === 101) {
-    //     clearInterval($interval);
-    //     this.isTaskStarted = false;
-    //   } else {
-    //     this.counters.push(this.getCounterValue(this.currentValue));
-    //     this.currentValue++;
-    //   }
-    // }, 1000);
   }
   getCounterValue(counter) {
     if (counter % 3 === 0 && counter % 5 === 0) {
