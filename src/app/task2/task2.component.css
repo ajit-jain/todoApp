@@ -1,0 +1,10 @@
+.center-content{
+  text-align: center;
+}
+figure {
+  margin-bottom: 10px;
+}
+.outer{
+  float: left;
+  width: 100%;
+}
